@@ -1,0 +1,7 @@
+server:
+  port: 8083
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:mongo@localhost:20000/customerDB?authSource=admin&retryWrites=true&w=majority
+      #authentication-database: admin
